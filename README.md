@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Setup
+1. `npx create-next-app@latest ai-gateway`
+    *   **TypeScript:** Yes
+    *   **ESLint:** Yes
+    *   **Tailwind CSS:** Yes
+    *   **`src/` directory:** No (keeping `app/` at the root is slightly cleaner for small projects, but either is fine)
+    *   **App Router:** Yes (This is crucial — do not use the legacy Pages router)
+    *   **Customize default import alias:** No
+
+
+
 ## Getting Started
 
 First, run the development server:
